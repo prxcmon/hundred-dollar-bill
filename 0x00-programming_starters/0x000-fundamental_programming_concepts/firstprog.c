@@ -11,7 +11,7 @@ int main()
 
 /*
     |-------------------------------------------------------------|
-    | Un petit defi to loop the program based on our number input | 
+    | Un petit défi to loop the program based on our number input | 
     |-------------------------------------------------------------|
 
     int phrase(int x)
