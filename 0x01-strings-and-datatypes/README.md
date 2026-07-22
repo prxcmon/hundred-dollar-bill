@@ -16,7 +16,7 @@ We can use several parameters to print a text/phrase along with examples, such a
   printf("Example string\n");
   ```
 
-You can view, compile-and-run, or rewrite my example script of [`strings.c`](hundred-dollar-bill/0x01-strings-and-datatypes/strings.c) that uses both functions above.
+You can view, compile-and-run, or rewrite my example script of [`strings.c`](0x01-strings-and-datatypes/strings.c) that uses both functions above.
 
 ### Handy tables for strings
 
@@ -69,11 +69,11 @@ I will give you a brief description of an _array_, which is a list of _n_ elemen
 Once the array has been declared, you cannot simply increase or decrease the indexes, so make sure your array have enough spaces to store elements depending on what variable you are already set up.
 
 Declaring strings with arrays can be done within two ways:
-- [`char_array.c`](hundred-dollar-bill/0x01-strings-and-datatypes/char_array.c): Defining each characters in each array, one-by-one.
+- [`char_array.c`](0x01-strings-and-datatypes/char_array.c): Defining each characters in each array, one-by-one.
   - Notice the last character of the array is a `0`, which is also known as a null byte.
   - The null byte is used as a delimiter character to stop operations right at the null byte.
   - The rest of extra bytes are _garbages_ and it will be ignored.
-- [`char_array2.c`](hundred-dollar-bill/0x01-strings-and-datatypes/char_array2.c): The script uses `strcpy` function to _copy_ the string into the `str_a` array without declaring it one-by-one.
+- [`char_array2.c`](0x01-strings-and-datatypes/char_array2.c): The script uses `strcpy` function to _copy_ the string into the `str_a` array without declaring it one-by-one.
   - The syntax of the used function is `strcpy(destination, source);`
 
 ## Data types
